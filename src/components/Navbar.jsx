@@ -7,12 +7,15 @@ export default function Navbar() {
         <Link to="/">#ROADEXPLORE</Link>
       </div>
       <div className="flex">
-        <div className="flex gap-4">
+        <div className="flex gap-6">
           <div>
             <Link to="/about">About</Link>
           </div>
           <div>
             <Link to="/bikes">Bikes</Link>
+          </div>
+          <div>
+            <Link to="/login">Login</Link>
           </div>
         </div>
       </div>
